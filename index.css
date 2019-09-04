@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+#main-card {
+    width: 400px;
+    position: relative;
+
+    top: 50vh;
+    transform: translateY(-50%);
+    background-color: #191615;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 9px;
+    text-align: center;
+}
+
+#main-content {
+    margin: auto;
+    padding: 8px;
+}
+
+#profile-image {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+#name {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+    margin: 5px;
+    color: #F148FB;
+}
+
+canvas{
+    display:block;
+    vertical-align:bottom;
+}
+
+#particles-js{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
