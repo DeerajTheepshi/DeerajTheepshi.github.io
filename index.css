@@ -2,6 +2,7 @@ body {
     background-color: black;
     font-family: 'Open Sans', sans-serif;
     color: white;
+    font-size: 16px;
 }
 
 hr {
@@ -40,6 +41,7 @@ hr {
 
 #name {
     display: block;
+    margin-top: 8px;
     margin-left: auto;
     margin-right: auto;
     font-weight: bold;
@@ -97,8 +99,8 @@ canvas{
         height: 120px;
     }
 
-    #name{
-        font-size: 28px;
+    #name h1{
+        font-size: 34px;
     }
 
 
