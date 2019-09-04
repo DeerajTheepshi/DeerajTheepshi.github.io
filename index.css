@@ -13,14 +13,20 @@ hr {
     width: 400px;
     position: relative;
     top: 50vh;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    -webkit-transition: 0.7s;
+    -o-transition: 0.7s;
     transition: 0.7s;
     background-color: #191615;
     margin: 0 auto;
     padding: 5px;
     border-radius: 9px;
     text-align: center;
+    -webkit-animation: fade-in;
     animation: fade-in;
+    -webkit-animation-duration: 1.2s;
     animation-duration: 1.2s;
 }
 
@@ -79,6 +85,16 @@ canvas{
     background-repeat: no-repeat;
 }
 
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
 @keyframes fade-in {
     0% {
         opacity: 0;
@@ -102,8 +118,4 @@ canvas{
     #name h1{
         font-size: 34px;
     }
-
-
-
 }
-
